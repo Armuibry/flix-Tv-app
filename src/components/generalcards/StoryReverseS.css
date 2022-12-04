@@ -1,0 +1,115 @@
+.main-card-reverses {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-top: 10px solid grey;
+    padding-top: 50px;
+    width: 100%;
+  }
+  .image-reverses {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .stranges {
+      position: relative;
+      bottom: 25%;
+      display: flex;
+      flex-direction: row;
+      border: 2px solid rgb(127, 127, 127);
+      width: 45%;
+      border-radius: 10px;
+      justify-content: space-around;
+      align-items: center;
+      background-color: black;
+  }
+  .strange-imgs {
+      height: 90%;
+      width: 20%;
+  }
+  
+  .animations {
+      
+      width: 20%;
+  }
+  
+  .col-stranges {
+      display: flex;
+      flex-direction: column;
+  
+  }
+  
+  .text-reverses {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .text-reverses h1 {
+    padding-bottom: 25px;
+    margin: 0px;
+    margin-top: -10%;
+    width: 80%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  .text-reverses h2 {
+    margin: 0px;
+    width: 80%;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  
+  .mobiles {
+    height: 90%;
+    width: 70%;
+  }
+  
+  @media only screen and (max-width: 760px){
+      .main-card-reverses {
+          display: flex;
+          flex-direction: column;
+          padding-top: 20px;
+          justify-content: center;
+          align-items: center;
+      }
+      .image-reverses {
+          margin-bottom: 5%;
+      }
+      .mobiles {
+          width: 100%;
+      }
+      .text-reverses h1 {
+          font-size: 2rem;
+          text-align: center;
+          margin-top: 3%;
+        }
+        .text-reverses h2 {
+          font-size: 18px;
+          text-align: center;
+        }
+  
+        .text-reverses {
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          height: fit-content;
+          margin-top: 5%;
+          margin-bottom: 10%;
+          
+        }
+        .stranges {
+          margin-top: -32%;
+          width: 80%;
+          border-radius: 10px;
+      }
+  }
+  

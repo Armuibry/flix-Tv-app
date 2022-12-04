@@ -1,0 +1,139 @@
+.story-container {
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    z-index: 2;
+    color: #ffffff;
+    position: absolute;
+    top: 230px;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    margin: 0 auto;
+    max-width: 640px;
+    line-height: 1.1;
+    display: block;
+    font-size: 50px;
+   margin: 0px 50px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 0 auto;
+    max-width: 640px;
+    display: block;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+form h3 {
+    width: 100%;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#email {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 50px;
+    min-width: 470px;
+    padding: 10px 5px 5px 10px;
+    outline: none;
+    border: none;
+    flex: 1;
+    font-size: 16px;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+} 
+
+form button {
+    font-size: 1.825rem;
+    min-height: 100%;
+    background-color: #e50914;
+    background-image: linear-gradient(180deg,#e50914,#db0510);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    color: #fff;
+    padding: 12px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form {
+    width: 100%;
+}
+
+.email-label {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    bottom: 35px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(185, 183, 183);
+
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 760px){
+    .story-container {
+        display: block;
+        width: 100%;
+        margin-top: -100px;
+    }
+   .story-container h1 {
+    width: 80%;
+    font-size: 30px;
+    margin: auto;
+   } 
+   .story-container h2 {
+    width: fit-content;
+    font-size: 20px;
+    padding-top: 15px;
+    margin: auto;
+   } 
+   .story-container h3 {
+    width: 80%;
+    font-size: 19px;
+    font-weight: 400;
+    margin: auto;
+    margin-bottom: 15px;
+   } 
+
+   .input {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+   }
+   .input #email {
+    min-width: 80%;
+    height: 30px;
+   }
+
+   .input button {
+    padding: 10px 10px 10px 10px;
+    width: 35%;
+    font-size: 1rem;
+    border-radius: 3px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10PX;
+    cursor: pointer;
+   }
+}

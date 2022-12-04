@@ -1,0 +1,164 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: left;
+    background-color: black;
+    color: #ffffff;
+    color: grey;
+    border-top: 10px solid grey;
+}
+
+.footer p {
+    margin-left: 18.5%;
+    margin-top: 5%;
+}
+.foot-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    
+}
+.lefts {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span {
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-select {
+    margin-left: 18.5%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-right: 0px;
+}
+
+.left-select span {
+    display: block;
+}
+.left-select select {
+    max-width: 12%;
+    height: 50px;
+    border: 1px solid grey;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 0.1px;
+    color: grey;
+    background-color: transparent;
+
+}
+.icons {
+    position: absolute;
+    margin-top: 0.6%;
+    margin-left: 0.8%;
+
+    color: grey;
+}
+
+
+@media only screen and (max-width:660px){
+    .footer {
+        width: 100%;
+        
+    }
+    .lefts {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .left-select {
+        display: flex;
+        flex-direction: column;
+        margin-left: 17%;
+    }
+
+    .left-select select {
+        max-width: 150px;
+        height: 50px;
+        margin-left: 0% ;
+        border: 1px solid grey;
+        text-align: center;
+        margin-bottom: 2%;
+        border-radius: 0px;
+        color: grey;
+        background-color: transparent;
+    
+    }
+
+    .icons {
+        position: absolute;
+        margin-top: 1.5%;
+        margin-left: 2%;
+        color: grey;
+    }
+
+}
+
+@media only screen and (min-width: 661px){
+    .left-select {
+        display: flex;
+        flex-direction: column;
+        margin-left: 17%;
+    }
+
+    .left-select select {
+        max-width: 150px;
+    
+    }
+
+    .icons {
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 1.5%;
+        color: grey;
+    }
+}
